@@ -1,0 +1,9 @@
+# Core (always needed)
+streamlit>=1.36
+scikit-learn>=1.3          # powers the zero-setup keyword retrieval fallback
+
+# Semantic search upgrade (recommended; bigger download, understands meaning)
+sentence-transformers>=2.7
+
+# Only needed if you use an LLM for natural-language answers (Groq or OpenAI)
+openai>=1.30
