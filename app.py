@@ -317,9 +317,9 @@ for role, m in st.session_state.history:
 q = st.chat_input("Ask about Priyanshu's skills, projects, or experience…")
 if q:
     st.session_state.history.append(("user", q))
-    with st.chat_message("user", avatar="🧑‍💻"):
+    with st.chat_message("user", avatar="🤖"):
         st.markdown(q)
-    with st.chat_message("assistant", avatar="✦"):
+    with st.chat_message("assistant", avatar="🤖"):
         with st.spinner("Retrieving facts…"):
             reply, used = answer_question(q, retrieve)
         st.markdown(reply)
