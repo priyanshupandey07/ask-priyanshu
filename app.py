@@ -23,7 +23,7 @@ GITHUB   = "https://github.com/priyanshupandey07"
 LINKEDIN = "https://linkedin.com/in/priyanshu-pandey-007951262"
 EMAIL    = "pri090204@gmail.com"
 PHONE    = "+91-8882281544"
-RESUME_URL = "https://github.com/priyanshupandey07/ask-priyanshu/raw/main/PRIYAN_1.PDF"
+RESUME_URL = "https://github.com/priyanshupandey07/ask-priyanshu/blob/main/PRIYAN_1.PDF"
 st.set_page_config(page_title="Priyanshu Pandey — AI / LLM Engineer",
                    page_icon="✦", layout="wide", initial_sidebar_state="collapsed")
 
